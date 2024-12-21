@@ -7,13 +7,12 @@ export default [
     files: ["**/*.js"],
     languageOptions: {
       globals: globals.node,
-      ecmaVersion: 2015, // ES6
-      sourceType: "module", // Use module format
+      ecmaVersion: "latest", // 支持最新的 ECMAScript
+      sourceType: "module",  // 使用 ECMAScript 模块
     },
     rules: {
-      "semi": 1,
-      "no-console": "off",
+      "semi": 1,            // 警告：缺少分号
+      "no-console": "off",  // 允许 console.log
     },
   },
-  pluginJs.configs.recommended,
 ];
