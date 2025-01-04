@@ -2,6 +2,7 @@ import React from 'react';
 import { useQuery } from 'react-query';
 import { getMovies } from "./api/movies-api";
 
+
 export const PublicPage = () => {
     return <h2>Public page</h2>
  }
