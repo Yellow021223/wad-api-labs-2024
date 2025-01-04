@@ -1,3 +1,2 @@
 # Web App Dev 2: Web API Labs
-
-Practical labs for the WAD2 module
+I have added two new endpoints and completed the requirement of calling two of the API endpoints from the frontend. Additionally, I have implemented the basic login and registration functionality.
